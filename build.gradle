@@ -10,10 +10,10 @@ repositories {
 }
 
 dependencies {
-    testImplementation group: 'org.testng', name: 'testng', version: '7.1.0'
+    testImplementation group: 'junit', name: 'junit', version: '4.13.2'
 
 }
 
 test {
-    useTestNG()
+    useJUnit()
 }
